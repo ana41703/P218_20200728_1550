@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                            <TableLayout
+                                android:id="@+id/tableLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_marginBottom="242dp"
+                                tools:ignore="UnknownId">
+
+                                <TableRow
+                                    android:layout_width="81dp"
+                                    android:layout_height="100dp"
+                                    android:gravity="bottom|center|center_vertical">
+
+                                    <Space
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp" />
+
+                                    <Button
+                                        android:id="@+id/next0"
+                                        style="@style/Widget.AppCompat.Button.Small"
+                                        android:layout_width="88dp"
+                                        android:layout_height="45dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:layout_marginRight="100dp"
+                                        android:layout_marginBottom="0dp"
+                                        android:background="@android:drawable/alert_light_frame"
+                                        android:onClick="next_0"
+                                        android:text="Next"
+                                        android:textSize="24sp"
+                                        app:backgroundTint="@android:color/holo_blue_light" />
+
+                                </TableRow>
+                            </TableLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+
